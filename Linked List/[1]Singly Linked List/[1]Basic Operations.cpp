@@ -69,7 +69,8 @@ void linklist::addafter(int loc, int num){
 }
 
 void linklist::display(){
-    node *temp=p;
+    node *temp;
+    temp = p;
     cout << endl;
     while(temp != NULL){
         cout << temp -> data << " ";
